@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter a"));
+        var b = parseInt(prompt("Enter b"));
+        var c = parseInt(prompt("Enter choice (1:Add, 2:subtract, 3:Multiply, 4:Divide)"));
+        switch(c){
+            case 1:
+                document.write("Sum is : " + (a+b));
+                break;
+            
+            case 2:
+                document.write("Difference is : " + (a-b));
+                break;
+
+            case 3:
+                document.write("Product is : " + (a*b));
+                break;
+
+            case 4:
+                document.write("Quotient is : " + (a/b));
+                break;
+
+            default:
+                document.write("Invalid choice!");
+                break;
+        }
+    </script>
+</body>
+</html>
